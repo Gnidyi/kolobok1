@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int l;
+
+    printf("Number: ");
+    scanf ("%i",&l);
+    
+    int k = 0, n = 0;
+
+    while(n < l)
+    {
+        k++;
+        n = n + 3;
+    }
+    printf("K: %i\n", k);
+    printf("Suma: %i\n", n);
+}
